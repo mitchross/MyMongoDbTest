@@ -9,6 +9,7 @@ apt-get -y update &&
 apt-get install -y mongodb-org &&
 echo "Installed MongoDB"
 echo "start Mongo"
+stop mongod
 sudo service mongod start
 EOH
 end
