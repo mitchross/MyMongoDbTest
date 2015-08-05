@@ -11,3 +11,4 @@ echo "Installed MongoDB"
 echo "start Mongo"
 sudo service mongod start
 EOH
+end
